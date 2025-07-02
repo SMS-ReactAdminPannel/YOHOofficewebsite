@@ -1753,7 +1753,7 @@ color: #01d871 ;
   }
   .home-card-title{
     text-align: center;
-    font-size: 12px;
+    font-size: 18px;
   }
 }
 
@@ -1796,8 +1796,4 @@ color: #01d871 ;
   .project-card{
     margin-left: 20px;
   }
-}
-
-@media (max-width:1024px) {
-  
 }
