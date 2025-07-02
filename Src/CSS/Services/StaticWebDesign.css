@@ -1,4 +1,4 @@
-* {
+ *{ 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,7 +10,6 @@ body {
   color: #fff;
   padding: 20px;
 }
-
 /* Hero Section */
 .container1 {
   display: flex;
@@ -67,6 +66,9 @@ body {
   transition: 0.3s;
 }
 
+
+
+
 .buttons button:hover {
   background-color: #fff;
   color: #000;
@@ -77,6 +79,8 @@ body {
   flex: 1 1 500px;
   text-align: center;
   animation: fadeInRight 1s ease;
+
+  overflow-x: hidden;
 }
 
 .image-section img {
@@ -88,6 +92,7 @@ body {
 .section-1 {
   padding: 30px 20px;
   max-width: 1300px;
+  text-align: center;
   margin: auto;
 }
 
@@ -119,7 +124,7 @@ body {
 
 .service p , .text-content p{
   color: #ffffff;
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Inter", sans-serif;
   font-weight: 200;
   line-height: 30px;
@@ -129,6 +134,8 @@ body {
   width: 80px;
   height: 80px;
 }
+
+
 /*Services Responsive */
 
 @media (max-width:1024px) {
@@ -179,6 +186,7 @@ body {
   .section-1 h1{
     text-align: center;
   }
+
 }
 
 /* Design Systems Section */
@@ -199,21 +207,24 @@ body {
 .text-content h1 {
   font-family: "Inter", sans-serif;
   color: #ffffff;
-  font-size: 40px;
-  font-weight: 100;
+  font-size: 20px;
+  font-weight: 200;
   margin-bottom: 20px;
 }
 
 .text-content p {
   margin-top: 50px;
   margin-bottom: 30px;
+  font-size: 20px;
 }
 
 .tags {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  padding:40px;
 
+  /* width:200px */
 }
 
 .tags span {

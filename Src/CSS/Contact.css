@@ -27,18 +27,7 @@ body {
   
   color: white;
 }
-<<<<<<< HEAD
-@media (max-width: 768px) {
-  .custom-outline-btn {
-    font-size: 0.95rem;
-    padding: 10px 16px;
-    margin-left: 33px;
-  }
-}
-
-=======
     
->>>>>>> f90634d24a35e7e25f779c9488484b32253e52cd
 
    
 
@@ -227,8 +216,6 @@ body {
    margin-top:-20px
 
 }
-
-
 
 
 /* On mobile (≤768px), make it full width */
