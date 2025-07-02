@@ -1009,7 +1009,7 @@ h4 {
 	transform: translateY(-4px);
 }
 
-.card-title {
+.home-card-title {
 	font-size: 20px;
 	font-family: 'Inter', 'Helvetica Neue', 'Axiforma Book', Arial, sans-serif;
 	font-weight: 200;
@@ -1078,7 +1078,7 @@ h4 {
 		padding: 20px 0px;
 	}
 
-	.card-title {
+	.home-card-title {
 		max-width: 100%;
 		font-size: 16px;
 	}
@@ -1456,7 +1456,7 @@ h4 {
 		text-align: center;
 	}
 
-	.card-title {
+	.home-card-title {
 		padding-left: 0px;
 		text-align: center;
 	}
