@@ -80,6 +80,7 @@ body {
   text-align: center;
   animation: fadeInRight 1s ease;
 
+  overflow-x: hidden;
 }
 
 .image-section img {
