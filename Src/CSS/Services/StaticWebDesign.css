@@ -79,6 +79,7 @@ body {
   flex: 1 1 500px;
   text-align: center;
   animation: fadeInRight 1s ease;
+
 }
 
 .image-section img {
