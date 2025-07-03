@@ -501,6 +501,7 @@ input::placeholder {
 .featured-jobs-container {
   max-width: 1200px;
   margin: 0 auto;
+  background-color: #000;
 }
 
 .featured-jobs-container h2 {
@@ -800,6 +801,7 @@ input::placeholder {
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
+  background-color: #000;
 }
 
 .benefits-container h2 {
