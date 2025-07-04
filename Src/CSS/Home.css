@@ -486,9 +486,7 @@ color: #01d871 ;
   transition: all 0.3s ease;
   text-decoration: none;
   display: inline-block;
-  position: absolute;
-  top: 330px;
-  right: 140px;
+  
   
 }
 
