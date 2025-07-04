@@ -235,6 +235,22 @@ color: #ffffff;
     margin-bottom: 8px;
 
 }
+.gut { 
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    border-radius: 999px;
+    background: transparent;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: "Inter", "Helvetica Neue", "Axiforma Book", Arial, sans-serif;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    width: 198px;
+    margin-top: 14px;
+    margin-bottom: 8px;
+
+}
 
 /* Apply margin-left: 56px only on mobile (max-width: 768px) */
 @media (max-width: 768px) {
@@ -245,6 +261,25 @@ color: #ffffff;
     
   }
 }
+@media (max-width: 768px) {
+  .gut {
+    margin-left: 53px;
+    margin-bottom: 39px;
+    width:auto;
+    
+  }
+}
+
+@media (max-width: 320px) {
+  .gut {
+    margin-left: 34px;
+    margin-bottom: 39px;
+    width:auto;
+    
+  }
+}
+
+
 
 .mut { 
     padding: 10px 30px;
@@ -265,9 +300,11 @@ color: #ffffff;
     margin-left: -1px;
   }
 }
+
+
 @media (max-width: 412px) {
   .mut {
-    margin-left: 76px;
+    margin-left: 46px;
   }
 }
 
@@ -586,8 +623,9 @@ color: #ffffff;
   .decor-imgg {
     position: relative;
   top: -1px;
-        left: 101px;
+        left: 84px;
   }
+  
   .badge-pill{
     width: 100%;
     text-align: center;
@@ -1024,6 +1062,8 @@ width:336px;}
     max-width: 338px;
 }
 }
+
+
 
 
 
