@@ -1,4 +1,4 @@
-* {
+ *{ 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,7 +10,6 @@ body {
   color: #fff;
   padding: 20px;
 }
-
 /* Hero Section */
 .container1 {
   display: flex;
@@ -32,18 +31,18 @@ body {
 .text-section h1{
   font-family: "Inter", sans-serif;
   color: #ffffff;
-  font-size: 2.2rem;
-  font-weight: 200;
+  font-size: 40px;
+  font-weight: 100;
 }
 
 .text-section p {
   
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 20px;
   font-family: "Inter", "Helvetica Neue", "Axiforma Book", Arial, sans-serif;
   font-weight: 200;
   margin-top: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   line-height: 30px;
 }
 
@@ -51,7 +50,7 @@ body {
   display: flex;
   gap: 20px;
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 20px;
   font-weight: 200;
   font-family: "Inter", "Helvetica Neue", "Axiforma Book", Arial, sans-serif;
 }
@@ -67,6 +66,9 @@ body {
   transition: 0.3s;
 }
 
+
+
+
 .buttons button:hover {
   background-color: #fff;
   color: #000;
@@ -77,6 +79,8 @@ body {
   flex: 1 1 500px;
   text-align: center;
   animation: fadeInRight 1s ease;
+
+  overflow-x: hidden;
 }
 
 .image-section img {
@@ -86,16 +90,17 @@ body {
 
 /* Services Section */
 .section-1 {
-  padding: 50px 20px;
+  padding: 30px 20px;
   max-width: 1300px;
+  text-align: center;
   margin: auto;
 }
 
 .section-1 h1 {
   font-family: "Inter", sans-serif;
   color: #ffffff;
-  font-size: 2.2rem;
-  font-weight: 200;
+  font-size:40px;
+  font-weight: 100;
   margin-bottom: 80px;
 }
 
@@ -119,7 +124,7 @@ body {
 
 .service p , .text-content p{
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 20px;
   font-family: "Inter", sans-serif;
   font-weight: 200;
   line-height: 30px;
@@ -129,7 +134,27 @@ body {
   width: 80px;
   height: 80px;
 }
+
+
 /*Services Responsive */
+
+@media (max-width:1024px) {
+  .services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+  gap: 100px;
+}
+.section-1 h1 {
+        text-align: center;
+    }
+  
+  .text-section {
+    justify-items: center;
+  }
+  
+}
+
+
 @media (max-width: 768px) {
   .section-1{
      flex-direction: column;
@@ -137,7 +162,20 @@ body {
     padding-bottom: 2px;
     
   }
+  .text-section h1{
+    font-size: 32px;
+  }
+.section-1 h1{
+    font-size: 32px;
+  }
+ 
+.service h2{
+  font-size: 20px;
+}
 
+.service p{
+  font-size: 16px;
+}
 }
 
 @media (max-width: 480px) {
@@ -148,6 +186,7 @@ body {
   .section-1 h1{
     text-align: center;
   }
+
 }
 
 /* Design Systems Section */
@@ -168,7 +207,7 @@ body {
 .text-content h1 {
   font-family: "Inter", sans-serif;
   color: #ffffff;
-  font-size: 2.5rem;
+  font-size: 20px;
   font-weight: 200;
   margin-bottom: 20px;
 }
@@ -176,13 +215,16 @@ body {
 .text-content p {
   margin-top: 50px;
   margin-bottom: 30px;
+  font-size: 20px;
 }
 
 .tags {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  padding:40px;
 
+  /* width:200px */
 }
 
 .tags span {
@@ -294,17 +336,6 @@ body {
 }
 
 /* Responsive */
-@media (max-width: 1024px) {
-  .text-section p {
-    margin-bottom:20px;
-  }
-  .services, .tags{
-    display: grid;
-    grid-template-columns: repeat(2, minmax(250px, 1fr));
-  }
-  
-}
-
 @media (max-width: 768px) {
   .container1,
   .container {
@@ -327,8 +358,8 @@ body {
     padding-top: 50px;
   }
   .image-section img{
-    width: 350px;
-    height: 250px;
+    width: 100%;
+    /* height: 250px; */
   }
 
   .text-content-para{
@@ -338,20 +369,21 @@ body {
   font-weight: 200;
   }
   .text-content h1{
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 100;
   margin-bottom: 40px;
   text-align: center;
   }
 
   .text-section p,
-  .note, .testimonial-text {
-    font-size: 0.9rem;
+  .note, .testimonial-text , .buttons button{
+    font-size: 16px;
   }
 
   .buttons {
     justify-content: center;
     gap: 10px;
+    font-size: 16px;
     align-items: center;
   }
   .tags{
@@ -360,9 +392,9 @@ body {
   }
   .tags span{
     text-align: center;
+    font-size: 14px;
   }
 }
-
 
 /* h1.underline {
   position: relative;
@@ -470,7 +502,7 @@ h1.underline:hover::after {
 
 .testimonial-text {
   color: #f5f2f2ce;
-  font-size: 0.95em;
+  font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
   text-justify: auto;
@@ -518,8 +550,8 @@ h1.underline:hover::after {
 .header h1 {
   font-family: "Inter", sans-serif;
   color: #ffffff;
-  font-size: 2.2rem;
-  font-weight: 200;
+  font-size: 40px;
+  font-weight: 100;
 }
 
 /* .header p {
@@ -539,6 +571,17 @@ h1.underline:hover::after {
     column-gap: 15px;
     padding: 15px;
   }
+  .header h1{
+    font-size: 32px;
+  }
+.stars{
+  font-size: 20px;
+}
+.testimonial-text{
+  font-size: 16px;
+}
+
+
 }
 
 @media (max-width: 480px) {
