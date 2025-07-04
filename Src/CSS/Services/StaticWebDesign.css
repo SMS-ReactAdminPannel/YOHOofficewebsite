@@ -596,3 +596,26 @@ h1.underline:hover::after {
   }
 
 }
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .tags span {
+    flex: 1 1 200px;
+    max-width: 200px;
+    text-align: center;
+    padding: 10px 16px;
+    background-color: black;
+    border: 1px solid #ccc; /* Border */
+    border-radius: 999px;   /* Fully rounded (pill style) */
+    font-weight: 500;
+    white-space: nowrap;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  
