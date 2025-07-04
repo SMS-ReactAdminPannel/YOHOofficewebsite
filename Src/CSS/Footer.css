@@ -633,6 +633,7 @@
          grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
     text-align: left;
+    padding-left: 4px;
     }
     
     .footer-links-column {
