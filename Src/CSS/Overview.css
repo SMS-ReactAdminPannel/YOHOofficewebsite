@@ -198,6 +198,7 @@ p {
   .cts-button{
   
     margin-left: 56px;
+    margin-top:25px;
   }
 }
 
@@ -648,6 +649,10 @@ p {
 }
 
 @media (max-width: 480px) {
+  .section-title{
+    font-size: 1.5rem;
+    margin-top: 70px;
+  }
   .testimonials-container {
     columns: 1;
     padding: 10px;
@@ -812,7 +817,9 @@ p {
   .main-heading {
     font-size: 2rem;
   }
-
+.flow-heading{
+  font-size: 1.5 rem;
+}
   .services-heading {
     font-size: 1.7rem;
     text-align: center;
