@@ -11,7 +11,7 @@ body {
       border-radius: 999px;
       background: transparent;
       color: white;
-      font-size: 1rem;
+      font-size: 16px;
       font-family: "Inter", "Helvetica Neue", "Axiforma Book", Arial, sans-serif;
       transition: all 0.3s ease-in-out;
       display: inline-flex;
@@ -37,7 +37,7 @@ body {
       border-radius: 999px;
       background: black;
       color: white;
-      font-size: 1rem;
+      font-size: 16px;
       font-family: "Inter", "Helvetica Neue", "Axiforma Book", Arial, sans-serif;
       transition: all 0.3s ease-in-out;
       display: inline-flex;
@@ -157,21 +157,21 @@ body {
 
 .second{
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 16px;
   font-family: "Inter", "Helvetica Neue", "Axiforma Book", Arial, sans-serif;
   text-align: left;
   padding-left: 4px;
 }
 .description {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 16px;
   font-family: "Inter", "Helvetica Neue", "Axiforma Book", Arial, sans-serif;
   
    text-align: center;
 }
 .cription {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 16px;
   font-family: "Inter", "Helvetica Neue", "Axiforma Book", Arial, sans-serif;
   font-weight: 300;
    text-align: center;
@@ -183,14 +183,14 @@ body {
   }
   /* .description {
   font-family: "Inter", sans-serif;
-  font-size: 1rem;
+  font-size: 16px;
   color: #f1f1f1;
   
 } */
  
 .box {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 16px;
   font-family: "Inter", "Helvetica Neue", "Axiforma Book", Arial, sans-serif;
   font-weight: 300;
    text-align: center;
@@ -228,7 +228,7 @@ body {
   }
   .cription {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 16px;
   font-family: "Inter", "Helvetica Neue", "Axiforma Book", Arial, sans-serif;
   font-weight: 300;
    text-align: center;
@@ -241,7 +241,7 @@ body {
 }
   .box {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 16px;
   font-family: "Inter", "Helvetica Neue", "Axiforma Book", Arial, sans-serif;
   font-weight: 300;
    text-align: center;
@@ -382,7 +382,7 @@ body {
 }
 
 .header p {
-  font-size: 1.1rem;
+  font-size: 1.16px;
   opacity: 0.8;
 }
 
@@ -432,7 +432,7 @@ body {
   }
   .cription {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 16px;
   font-family: "Inter", "Helvetica Neue", "Axiforma Book", Arial, sans-serif;
   font-weight: 300;
    text-align: center;
@@ -448,7 +448,7 @@ body {
     }
     .cription {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 16px;
   font-family: "Inter", "Helvetica Neue", "Axiforma Book", Arial, sans-serif;
   font-weight: 300;
    text-align: center;
@@ -466,7 +466,7 @@ body {
   }
 
   .box {
-    font-size: 1rem;
+    font-size: 16px;
     text-align: center;
     margin-left: 0;
   }
@@ -487,8 +487,8 @@ body {
   }
 
   .custom-outline-btn {
-    font-size: 1rem;
-    padding: 10px 24px;
+    font-size: 16px;
+    padding: 14px 9px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -562,7 +562,7 @@ body {
 @media (max-width: 430px) {
 .cription {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 16px;
   font-family: "Inter", "Helvetica Neue", "Axiforma Book", Arial, sans-serif;
   font-weight: 300;
    text-align: center;
@@ -599,7 +599,7 @@ body {
       border-radius: 999px;
       background: transparent;
       color: white;
-      font-size: 1rem;
+      font-size: 16px;
       font-family: "Inter", "Helvetica Neue", "Axiforma Book", Arial, sans-serif;
       transition: all 0.3s ease-in-out;
       display: inline-flex;
@@ -654,7 +654,12 @@ body {
         text-align: left;
     }
 } */
- 
+
+@media (max-width: 376px){
+  .des {
+    margin-left: 5px;
+  }
+}
 
     
 
