@@ -504,7 +504,7 @@ color: #01d871 ;
 
 @media (min-width: 475px) and (max-width: 768px) {
   .home-hero-section{
-    height: 190vh;
+    height: 170vh;
   }
   .hehome-ro-code-text{
     padding-top: 140px;
@@ -875,7 +875,7 @@ color: #01d871 ;
   .home-hero-section{
     padding: 150px 0px 0px;
   }
-  .hehome-ro-code-text{
+  .home-ro-code-text{
     margin-top:10px;
   }
   .home-section-title1 {
@@ -916,9 +916,10 @@ color: #01d871 ;
     margin-left: -47px;
   }
   .home-hero-description{
-    margin-left: -50px;
+    margin : auto;
     /* margin-right: 65px; */
     text-align: justify;
+    padding-bottom : 10px;
     font-size: 16px;
   }
 
