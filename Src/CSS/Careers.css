@@ -1339,6 +1339,14 @@ input::placeholder {
 
 
 @media screen and (max-width: 768px) {
+
+  .job-listings {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
   .careers-hero {
     padding: 30px 15px 60px;
   }
