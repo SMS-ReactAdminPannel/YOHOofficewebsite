@@ -16,6 +16,10 @@
   margin-top: -150px;
 }
 
+.home-para{
+  font-weight: 400;
+}
+
 .hero-bg {
   position: absolute;
   top: 0;
@@ -277,9 +281,9 @@ color: #01d871 ;
 
 .home-hero-description {
   color: rgba(255, 255, 255, 0.85);
-  font-size: 1rem;
+  font-size: 16px;
   font-family: "Inter", "Helvetica Neue", "Axiforma Book", Arial, sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 1.5;
   /* font-weight: 400; */
   margin-bottom: 2.5rem;
@@ -405,8 +409,9 @@ color: #01d871 ;
 
 .home-section-description {
   font-family: "Inter", "Helvetica Neue", "Axiforma Book", Arial, sans-serif ;
-  letter-spacing: -0.01em;
-  font-size: 1.2rem;
+  /* letter-spacing: -0.01em; */
+  font-size:16;
+  font-weight: 400;
   line-height: 1.6;
   color: #cccccc;
   font-weight: 200;
@@ -425,10 +430,10 @@ color: #01d871 ;
   background-color: #000;
   border: 1px solid #ffffff;
   border-radius: 8px;
-  padding: 2rem;
+  padding: 32px;
   transition: all 0.3s ease;
   position: relative;
-  height: 450px;
+  height: 400px;
 }
 
 .home-product-card:hover {
@@ -438,25 +443,39 @@ color: #01d871 ;
 }
 
 .home-product-title {
-  font-size: 1.5rem;
-  font-weight: 200;
-  margin-bottom: 2rem;
+  font-size: 19px;
+  font-weight: 400;
+  margin-bottom: 32px;
   color: #ffffff;
+}
+
+.home-product-title2{
+ font-size: 17px;
+  /* font-weight: 400; */
+  margin-bottom: 32px;
+  color: #ffffff; 
+}
+
+.home-product-title4{
+  font-size: 17px;
+  /* font-weight: 400; */
+  margin-bottom: 32px;
+  color: #ffffff; 
 }
 
 .home-product-subtitle {
-  font-size: 1.2rem;
+  font-size:17px;
   color: #ffffff;
   margin-bottom: 1rem;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .home-product-description {
-  font-size: 0.9rem;
+  font-size: 15px;
   line-height: 1.6;
   color: #cccccc;
   margin-bottom: 2rem;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .home-discover-btn {
@@ -824,8 +843,9 @@ color: #01d871 ;
 }
 
 .home-textstyle{
-  font-size: 14px;
-  font-weight: 100;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
 }
 
 .home-logo-items img {
@@ -869,7 +889,7 @@ color: #01d871 ;
   color: #ffffff;
   margin-bottom: 3.5rem;
    line-height: 1;
-   font-size: 40px;
+   font-size: 30px;
    margin-top: 62px;
    /* padding-left: 90px; */
  }
@@ -919,6 +939,7 @@ color: #01d871 ;
   }
   .home-hero-text1{
     font-size: 16px;
+    font-weight: 400;
      font-family: "Inter", sans-serif;
   }
   .hehome-ro-code-text{
@@ -1012,10 +1033,9 @@ color: #01d871 ;
 
 /* Text content */
 .home-hero-text1 {
-  font-size: 15px;
+  font-size: 16px;
   font-family: "Inter", "Helvetica Neue", "Axiforma Book", Arial, sans-serif;
-  font-weight: 200;
-  /* line-height: 1.2; */
+  font-weight: 400;
   margin-bottom: 25px;
   text-align: justify;
 }
@@ -1111,19 +1131,19 @@ color: #01d871 ;
 }
 
 .home-card-title {
-  font-size: 1.rem;
+  font-size: 16px;
   font-family: "Inter", "Helvetica Neue", "Axiforma Book", Arial, sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   /* margin-left: 10px; */
-  text-align: center;
-  
+  /* text-align: center; */
 }
 
 .home-read-more-text {
   position: relative;
   display: inline-block;
   cursor: pointer;
-  font-weight: 200;
+  font-weight: 400;
+  height:14px;
 }
 
 .home-read-more-text::after {
@@ -1172,8 +1192,9 @@ color: #01d871 ;
   .sub-text{
     font-size: 1rem;
     padding:-50px 15px;
-    font-weight: 100;
-    color: white
+    font-weight: 400;
+    color: white;
+    height:16px;
   }
 
   .home-discover-section{
@@ -1334,8 +1355,8 @@ color: #01d871 ;
               height: 355px;
             }
             .home-product-title{
-              font-weight: 200;
-              font-size: 22px;
+              font-weight: 00;
+              font-size: 30px;
             }
             .home-product-subtitle{
               margin-top: -20px;
@@ -1391,10 +1412,10 @@ color: #01d871 ;
 
 
 .section-heading2 {
-  font-size: 56px;
+  font-size: 60px;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 100;
+  font-weight: 400;
   font-style: normal;
   color: #ffffff;
   margin-bottom: 1.5rem;
@@ -1406,9 +1427,10 @@ color: #01d871 ;
   color: rgb(255, 255, 255);
   padding: 50px 0px;
   font-family: "Inter", sans-serif;
-  font-weight: 100;
+  font-weight: 400;
   font-style: normal;
   text-decoration: none;
+  height: 16px;
 
 }
 
@@ -1715,7 +1737,7 @@ color: #01d871 ;
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .tech-heading {
     font-size: 2rem;
     margin-bottom: 60px;
@@ -1737,9 +1759,44 @@ color: #01d871 ;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
+   .custom-card h2 {
+    font-size: 24px;
+  }
+
+  .section-heading2{
+    padding: 105px 50px 45px;
+    font-size: 2.5rem;
+  }
+
+  .decor-img {
+    max-width: 80px;
+  }
+      .home-stat-icon{
+   width: 55px;
+   height: 55px;
+   object-fit: cover;
+    margin-top: 20px;
+
+  }
+  
+  .home-text-orange{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .home-card-title{
+    padding-left: 0px;
+    text-align: center;
+
+  }
+
+  .project-card{
+    margin-left: 20px;
+  }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   .home-tech-stack-section {
     padding: 30px 0px;
   }
@@ -1784,8 +1841,13 @@ color: #01d871 ;
 
 
 
+@media (min-width:600px){
+
+}
+
+
 /* Responsive tweaks */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .custom-card h2 {
     font-size: 24px;
   }
@@ -1821,4 +1883,4 @@ color: #01d871 ;
   .project-card{
     margin-left: 20px;
   }
-}
+} */

@@ -10,6 +10,10 @@ body {
   color: #fff;
   padding: 20px;
 }
+
+.home-para{
+  font-weight: 400;
+}
 /* Hero Section */
 .container1 {
   display: flex;
@@ -420,11 +424,13 @@ body {
   font-family: "Inter", sans-serif;
   color: rgba(255, 255, 255, 0.797);
   border: 1px solid white;
-  padding: 10px 16px;
+  padding: 10px 30px;
   border-radius: 20px;
   font-size: 0.95rem;
   text-align: center;
 }
+
+
 
 .visual-card {
   flex: 1 1 400px;
