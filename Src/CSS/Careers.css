@@ -1326,7 +1326,7 @@ input::placeholder {
 
 @media screen and (max-width: 376px){
     .job-card{
-    max-width: 300px;
+    max-width: 260px;
     }
 }
 
@@ -1335,7 +1335,7 @@ input::placeholder {
     padding: 30px 20px !important;
   }
   .job-card{
-    width: 350px ;
+    width: 310px ;
   }
   }
 
