@@ -199,6 +199,12 @@ p {
   
     margin-left: 56px;
   }
+  .section-title, .flow-heading{
+    font-size: 1.8rem !important;
+  }
+  .section-title{
+    margin-top: 40px;
+  }
 }
 
 
