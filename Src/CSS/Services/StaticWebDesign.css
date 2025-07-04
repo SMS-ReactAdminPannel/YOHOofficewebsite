@@ -692,7 +692,7 @@ h1.underline:hover::after {
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1200px) {
 .testimonials-container {
     columns: 3;
     column-gap: 20px;
@@ -703,7 +703,7 @@ h1.underline:hover::after {
 
 }
 
-/* 
+}
 
 .testimonials-container {
   columns: 3;
@@ -712,7 +712,7 @@ h1.underline:hover::after {
   margin: 0 auto;
   padding: 2px;
   background-color: #000;
-} */
+} 
 
 
 
@@ -938,6 +938,7 @@ h1.underline:hover::after {
   font-size: 20px;
 }
 .testimonial-text{
+  
   font-size: 16px;
 }
 
