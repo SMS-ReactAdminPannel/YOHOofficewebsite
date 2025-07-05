@@ -553,7 +553,7 @@ color: #01d871 ;
 
  @media (max-width: 768px) {
   .home-hero-section{
-    height: 250vh ;
+    height: auto ;
   }
 
   
@@ -984,6 +984,7 @@ color: #01d871 ;
         padding: 20px 10px;
         width: 90px;
         height: 60px;
+        margin-right: 20px;
         font-size: .7rem;
         font-weight: 300;
         font-family: "Inter", "Helvetica Neue", "Axiforma Book", Arial, sans-serif ;
