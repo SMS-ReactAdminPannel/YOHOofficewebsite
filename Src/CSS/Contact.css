@@ -544,7 +544,7 @@ body {
     margin: 0 auto;
   }
 }
-@media (max-width: 412px) {
+@media (max-width: 430px) {
   .d-flex.flex-wrap.gap-3.mb-4 {
     flex-direction: column !important;
     align-items: center;

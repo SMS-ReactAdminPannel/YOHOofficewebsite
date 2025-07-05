@@ -318,7 +318,7 @@ color: #ffffff;
 /* Apply margin-left: 56px only on mobile (max-width: 768px) */
 @media (max-width: 768px) {
   .mut {
-    margin-left: -1px;
+    margin-left: 70px;
   }
 }
 
