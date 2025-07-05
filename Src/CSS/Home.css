@@ -553,8 +553,10 @@ color: #01d871 ;
 
  @media (max-width: 768px) {
   .home-hero-section{
-    height: 150vh ;
+    height: 250vh ;
   }
+
+  
  .home-hero-code-text{
     font-size: 1.8rem;
     padding-top: 30px;
