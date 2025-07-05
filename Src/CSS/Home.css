@@ -1799,7 +1799,7 @@ margin-top: 20px;
 
   .home-card-title{
     padding-left: 0px;
-    text-align: center;
+    /* text-align: center; */
 
   }
 
@@ -1846,7 +1846,7 @@ margin-top: 20px;
     font-size: 1rem !important;
   }
   .home-card-title{
-    text-align: center;
+    /* text-align: center; */
     font-size: 18px;
   }
 }
