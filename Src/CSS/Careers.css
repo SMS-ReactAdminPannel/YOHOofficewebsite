@@ -86,32 +86,33 @@ p{
   font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 300;
-  border-radius: 8px;
+  border-radius: 28px;
   border: none;
   cursor: pointer;
   transition: all 0.3s ease;
+ 
 }
 .career-btn2 {
   padding: 14px 24px;
   font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 300;
-  border-radius: 8px;
+  border-radius: 28px;
   border: none;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .career-btn {
-  background-color: white;
-  color: #000000;
-  border-radius: 8px;
+  background-color:black;
+  color:white;
+  border-radius: 28px;
   border: 1px solid #ffffff;
 }
 
 .career-btn:hover {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: white;
+  color: black;
 }
 
 .career-btn2 {
@@ -197,6 +198,11 @@ p{
     justify-content: center;
   }
 }
+
+@media(max-width: 1024px) {
+  .career-stats {
+    grid-template-columns: repeat(2, 1fr);
+     }}
 
 @media (max-width: 768px) {
   .careers-hero-container {

@@ -292,9 +292,8 @@ color: #01d871 ;
 }
 
 .home-hero-cta {
- display : inline-block;
-  background: transparent;
-  border: 1px solid white;
+  display: inline-block;
+  background: black;
   color: white;
   font-size: 1rem;
   font-weight: 300;
@@ -307,14 +306,17 @@ color: #01d871 ;
   transition: all 0.3s ease;
   opacity: 0;
   transform: translateY(20px);
+  border: 1px solid rgb(255, 255, 255);
   animation: fadeInUp 0.6s ease forwards 0.8s;
 }
 
 .home-hero-cta:hover {
-   transform: translateY(-3px);
-  background: white;
+  transform: translateY(-3px);
+  /* box-shadow: 0 15px 30px rgba(21, 222, 121, 0.5); */
+  background:white;
   text-decoration: none;
   color: black;
+  border: 1px solid rgb(255, 255, 255);
 }
 
 .home-hero-cta2 {
@@ -486,9 +488,7 @@ color: #01d871 ;
   transition: all 0.3s ease;
   text-decoration: none;
   display: inline-block;
-  position: absolute;
-  top: 330px;
-  right: 140px;
+  
   
 }
 
@@ -1151,6 +1151,7 @@ color: #01d871 ;
   display: inline-block;
   cursor: pointer;
   font-weight: 200;
+
   height:14px;
 }
 
@@ -1160,8 +1161,8 @@ color: #01d871 ;
   position: absolute;
   left: 0;
   width: 0%;
-  height: 1px;
-  margin-top: 20px;
+  height: 2px;
+margin-top: 20px;
   background-color: #06f27b;
   transition: width 0.3s ease;
 }
@@ -1194,7 +1195,7 @@ color: #01d871 ;
       font-weight: 100;
   font-style: normal;
   color: #ffffff;
-  font-size: 2.5rem;
+  font-size:40px;
   margin-top: 45px;
   padding: 30px 5px
   }
