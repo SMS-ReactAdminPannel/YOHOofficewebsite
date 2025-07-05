@@ -233,7 +233,7 @@ color: #ffffff;
     width: 198px;
     margin-top: 14px;
     margin-bottom: 8px;
-
+   
 }
 .gut { 
     padding: 10px 30px;
@@ -260,6 +260,10 @@ color: #ffffff;
     width:auto;
     
   }
+  /* .cut:hover{
+    background-color: #ffffff;
+  color: #000;
+  } */
 }
 @media (max-width: 768px) {
   .gut {
