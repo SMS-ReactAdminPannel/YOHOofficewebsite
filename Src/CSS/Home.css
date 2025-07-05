@@ -1796,7 +1796,7 @@ color: #01d871 ;
 
   .home-card-title{
     padding-left: 0px;
-    text-align: center;
+    /* text-align: center; */
 
   }
 
@@ -1843,7 +1843,7 @@ color: #01d871 ;
     font-size: 1rem !important;
   }
   .home-card-title{
-    text-align: center;
+    /* text-align: center; */
     font-size: 18px;
   }
 }
