@@ -233,7 +233,14 @@ color: #ffffff;
     width: 198px;
     margin-top: 14px;
     margin-bottom: 8px;
+  
 
+}
+
+.cut:hover{
+  background-color: white;
+  color: black;
+  text-decoration: none;
 }
 .gut { 
     padding: 10px 30px;
@@ -251,6 +258,11 @@ color: #ffffff;
     margin-bottom: 8px;
 
 }
+
+.gut:hover{
+  background-color: white;
+  color: black;
+  text-decoration: none;}
 
 /* Apply margin-left: 56px only on mobile (max-width: 768px) */
 @media (max-width: 768px) {
@@ -294,6 +306,11 @@ color: #ffffff;
     text-decoration: none;
 }
 
+.mut:hover{
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
 /* Apply margin-left: 56px only on mobile (max-width: 768px) */
 @media (max-width: 768px) {
   .mut {
