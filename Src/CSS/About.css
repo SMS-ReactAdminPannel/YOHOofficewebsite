@@ -492,6 +492,10 @@ color: #ffffff;
   font-weight: 100;
       margin-bottom: 40px;
     }
+    .video-wrapper video{
+     height: auto;
+     object-fit: cover;
+    }
 }
 
 
